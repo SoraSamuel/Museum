@@ -9,10 +9,10 @@ if (themeToggle.checked) {
 themeToggle.addEventListener('change', function() {
     if (themeToggle.checked) {
         // Mudar para o tema escuro (altera o href para dark.css)
-        themeStylesheet.href = '/css/dark.css';
+        themeStylesheet.href = 'css/dark.css';
     } else {
         // Mudar para o tema claro (altera o href para light.css)
-        themeStylesheet.href = '/css/light.css';
+        themeStylesheet.href = 'css/light.css';
     }
 });
 
